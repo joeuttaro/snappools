@@ -1,0 +1,197 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ios-deploy' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData ios-deploy
+8 silly fetchNamedPackageData ios-deploy
+9 silly mapToRegistry name ios-deploy
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/ios-deploy
+13 verbose request uri https://registry.npmjs.org/ios-deploy
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 4:50:00 PM
+16 verbose request id 63f5e2695398927a
+17 verbose etag "5ALDUQ1GLDBEYMDJK8RUMV18V"
+18 http request GET https://registry.npmjs.org/ios-deploy
+19 http 304 https://registry.npmjs.org/ios-deploy
+20 verbose headers { date: 'Tue, 14 Jun 2016 19:50:00 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   etag: '"5ALDUQ1GLDBEYMDJK8RUMV18V"',
+20 verbose headers   age: '300',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-ord1744-ORD',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1465933800.787762,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 304,
+21 silly get   { date: 'Tue, 14 Jun 2016 19:50:00 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     etag: '"5ALDUQ1GLDBEYMDJK8RUMV18V"',
+21 silly get     age: '300',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-ord1744-ORD',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1465933800.787762,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose etag https://registry.npmjs.org/ios-deploy from cache
+23 verbose get saving ios-deploy to /Users/joeuttaro/.npm/registry.npmjs.org/ios-deploy/.cache.json
+24 verbose correctMkdir /Users/joeuttaro/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule ios-deploy@1.8.6 checking installable status
+38 silly cache add args [ 'ios-deploy', null ]
+39 verbose cache add spec ios-deploy
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'ios-deploy',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'ios-deploy',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed ios-deploy@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for ios-deploy
+43 info addNameTag [ 'ios-deploy', 'latest' ]
+44 silly mapToRegistry name ios-deploy
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/ios-deploy
+48 verbose addNameTag registry:https://registry.npmjs.org/ios-deploy not in flight; fetching
+49 verbose get https://registry.npmjs.org/ios-deploy not expired, no request
+50 silly addNameTag next cb for ios-deploy with tag latest
+51 silly addNamed ios-deploy@1.8.6
+52 verbose addNamed "1.8.6" is a plain semver version for ios-deploy
+53 silly cache afterAdd ios-deploy@1.8.6
+54 verbose afterAdd /Users/joeuttaro/.npm/ios-deploy/1.8.6/package/package.json not in flight; writing
+55 verbose correctMkdir /Users/joeuttaro/.npm correctMkdir not in flight; initializing
+56 verbose afterAdd /Users/joeuttaro/.npm/ios-deploy/1.8.6/package/package.json written
+57 silly loadAllDepsIntoIdealTree Finishing
+58 silly idealTree:prePrune Snap Pools
+58 silly idealTree:prePrune └── ios-deploy@1.8.6
+59 silly loadIdealTree Finishing
+60 silly currentTree Snap Pools
+61 silly idealTree Snap Pools
+61 silly idealTree └── ios-deploy@1.8.6
+62 silly generateActionsToTake Starting
+63 silly install generateActionsToTake
+64 silly generateActionsToTake Finishing
+65 silly diffTrees action count 1
+66 silly diffTrees add ios-deploy@1.8.6
+67 silly decomposeActions action count 8
+68 silly decomposeActions fetch ios-deploy@1.8.6
+69 silly decomposeActions extract ios-deploy@1.8.6
+70 silly decomposeActions test ios-deploy@1.8.6
+71 silly decomposeActions preinstall ios-deploy@1.8.6
+72 silly decomposeActions build ios-deploy@1.8.6
+73 silly decomposeActions install ios-deploy@1.8.6
+74 silly decomposeActions postinstall ios-deploy@1.8.6
+75 silly decomposeActions finalize ios-deploy@1.8.6
+76 silly executeActions Starting
+77 silly install executeActions
+78 silly doSerial global-install 0
+79 silly doParallel fetch 1
+80 verbose correctMkdir /Users/joeuttaro/.npm/_locks correctMkdir not in flight; initializing
+81 verbose lock using /Users/joeuttaro/.npm/_locks/staging-523068fdf51fc2cf.lock for /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging
+82 silly doParallel extract 1
+83 silly extract ios-deploy@1.8.6
+84 verbose unbuild node_modules/.staging/ios-deploy-04dbbd45
+85 silly gentlyRm /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45 is being purged from base /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools
+86 verbose gentlyRm don't care about contents; nuking /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45
+87 verbose tar unpack /Users/joeuttaro/.npm/ios-deploy/1.8.6/package.tgz
+88 verbose tar unpacking to /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45
+89 silly gentlyRm /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45 is being purged
+90 verbose gentlyRm don't care about contents; nuking /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm extractEntry .npmignore
+94 silly gunzTarPerm extractEntry README.md
+95 silly gunzTarPerm extractEntry LICENSE
+96 silly gunzTarPerm extractEntry CONTRIBUTING.md
+97 silly gunzTarPerm extractEntry demo/.npmignore
+98 silly gunzTarPerm extractEntry demo/Entitlements.plist
+99 silly gunzTarPerm extractEntry demo/Info.plist
+100 silly gunzTarPerm extractEntry demo/Makefile
+101 silly gunzTarPerm extractEntry demo/ResourceRules.plist
+102 silly gunzTarPerm extractEntry demo/demo.c
+103 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/project.pbxproj
+104 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/project.xcworkspace/xcuserdata/shaz.xcuserdatad/UserInterfaceState.xcuserstate
+105 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/xcshareddata/xcschemes/ios-deploy-tests.xcscheme
+106 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/xcuserdata/shaz.xcuserdatad/xcschemes/ios-deploy-lib.xcscheme
+107 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/xcuserdata/shaz.xcuserdatad/xcschemes/ios-deploy.xcscheme
+108 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/xcuserdata/shaz.xcuserdatad/xcschemes/xcschememanagement.plist
+109 silly gunzTarPerm extractEntry src/ios-deploy/MobileDevice.h
+110 silly gunzTarPerm extractEntry src/ios-deploy/errors.h
+111 silly gunzTarPerm extractEntry src/ios-deploy/ios-deploy.m
+112 silly gunzTarPerm extractEntry src/ios-deploy/version.h
+113 silly gunzTarPerm extractEntry src/ios-deploy-lib/libios_deploy.h
+114 silly gunzTarPerm extractEntry src/ios-deploy-lib/libios_deploy.m
+115 silly gunzTarPerm extractEntry src/ios-deploy-tests/Info.plist
+116 silly gunzTarPerm extractEntry src/ios-deploy-tests/ios_deploy_tests.m
+117 silly gunzTarPerm extractEntry src/scripts/check_reqs.js
+118 silly gunzTarPerm extractEntry src/scripts/lldb.py
+119 silly gentlyRm /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45/node_modules is being purged
+120 verbose gentlyRm don't care about contents; nuking /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45/node_modules
+121 silly doParallel preinstall 1
+122 silly preinstall ios-deploy@1.8.6 /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45
+123 info lifecycle ios-deploy@1.8.6~preinstall: ios-deploy@1.8.6
+124 warn lifecycle ios-deploy@1.8.6~preinstall: cannot run in wd %s %s (wd=%s) ios-deploy@1.8.6 ./src/scripts/check_reqs.js && xcodebuild /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging/ios-deploy-04dbbd45
+125 silly doReverseSerial remove 0
+126 silly doSerial move 0
+127 silly doSerial finalize 1
+128 silly finalize /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/ios-deploy
+129 silly doSerial build 1
+130 silly build ios-deploy@1.8.6
+131 info linkStuff ios-deploy@1.8.6
+132 silly linkStuff ios-deploy@1.8.6 has /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules as its parent node_modules
+133 verbose linkBins ios-deploy@1.8.6
+134 verbose link bins [ { 'ios-deploy': './build/Release/ios-deploy' },
+134 verbose link bins   '/Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.bin',
+134 verbose link bins   false ]
+135 verbose linkMans ios-deploy@1.8.6
+136 verbose unlock done using /Users/joeuttaro/.npm/_locks/staging-523068fdf51fc2cf.lock for /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/.staging
+137 silly rollbackFailedOptional Starting
+138 silly rollbackFailedOptional Finishing
+139 silly runTopLevelLifecycles Starting
+140 silly runTopLevelLifecycles Finishing
+141 silly install printInstalled
+142 warn enoent ENOENT: no such file or directory, open '/Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/package.json'
+143 warn Snap Pools No description
+144 warn Snap Pools No repository field.
+145 warn Snap Pools No README data
+146 warn Snap Pools No license field.
+147 verbose stack Error: ENOENT: no such file or directory, chmod '/Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/ios-deploy/build/Release/ios-deploy'
+147 verbose stack     at Error (native)
+148 verbose cwd /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools
+149 error Darwin 15.5.0
+150 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "ios-deploy"
+151 error node v5.7.0
+152 error npm  v3.6.0
+153 error path /Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/ios-deploy/build/Release/ios-deploy
+154 error code ENOENT
+155 error errno -2
+156 error syscall chmod
+157 error enoent ENOENT: no such file or directory, chmod '/Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/ios-deploy/build/Release/ios-deploy'
+158 error enoent ENOENT: no such file or directory, chmod '/Users/joeuttaro/Workspaces/snappools-pg/Snap Pools/node_modules/ios-deploy/build/Release/ios-deploy'
+158 error enoent This is most likely not a problem with npm itself
+158 error enoent and is related to npm not being able to find a file.
+159 verbose exit [ -2, true ]
